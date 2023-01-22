@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dc-header-broder-color {
+    border-color: #efefef;
+}
+
+.logo-heading {
+    font-size: 31.9px;
+}
+
+.dc-nav-links a {
+    @apply text-gray-300 inline-block py-4 pl-6
+}
+
+.primary-color, .dc-nav-links a.primary-color{
+    color: #5a26ff;
+}
+
+.dc-nav-links a.primary-color{
+    color: #5a26ff;
+}
+
+.login-page-bg {
+    background-image: url("../../public/assets/img/login-page-bg.png");
+}
+
+.dc-login-box {
+    max-width: 500px;
+}
+
+.dc-login-box h3 {
+    font-size: 22px;
+}
+
+.dc-btn {
+    @apply text-white font-semibold py-4 px-6 w-full rounded;
+    background-color: #5a26ff
+}
+
+.profile-bg{
+    background-image:url("../../public/assets/img/profile.png");
+}
+
+.gray-bg{
+    background-color:#F7F7F7;
+}
+.dashboard-bg{
+    background-color:#E5E5E5;
+}
+.font-size-22{
+    font-size:22px;
+}
+.dc-green-border-color{
+    border-color:rgba(97, 200, 119, 0.3);
+}
+.dc-green-color{
+    color:#61C877;
+}
+.dc-red-color{
+    color:#FF6056;
+}
+.dc-red-border-color{
+   border-color:rgba(255, 96, 86, 0.3);
+}
+.dc-yellow-border-color{
+    color:#FFCE93;
+}
+.dc-red-color{
+   border-color:rgba(255, 206, 147, 0.3);
+}
+.h-inherit {
+    height: inherit;
+}
+
+.dc-user-box{
+    @apply bg-white;
+    height: 800px;
+    width: 480px;
+}
+
+.dc-profile_image{
+    height: 66px;
+    width: 66px;
+}
+
+.dc-user-title{
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    @apply text-gray-500
+}
+
+.dc-user-text{
+    font-size: 18px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    @apply border-b py-2 text-black
+}
