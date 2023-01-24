@@ -40,7 +40,9 @@
             <a href="#" class="pr-4">
                 <img src="{{ asset('assets/img/Iconly/Light/notification.svg') }}" alt="">
             </a>
-            <div class="profile-bg w-10 h-10 bg-center bg-contain bg-no-repeat rounded-full"></div>
+            <a href="{{ route('profile') }}">
+                <div class="profile-bg w-10 h-10 bg-center bg-contain bg-no-repeat rounded-full"></div>
+            </a>
         </div>
     </div>
     <!--End Header Section-->
