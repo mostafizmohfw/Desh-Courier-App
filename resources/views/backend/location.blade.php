@@ -3,7 +3,7 @@
         <div class="flex items-center justify-between">
             <div class="min-w-max">
                 <h4 class="text-gray-900 font-size-22 font-bold">Location</h4>
-                <p class="text-gray-600"><span>109</span> Location Found</p>
+                {{-- <p class="text-gray-600"><span>109</span> Order Found</p> --}}
             </div>
 
             <div class="min-w-max">

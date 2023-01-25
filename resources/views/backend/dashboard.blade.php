@@ -39,383 +39,91 @@
                 </div>
             </div>
 
-            <!--Table Content-->
-
-            <div class="relative overflow-x-auto">
-                <table class="w-full font-medium text-left border-separate border-spacing-y-3">
-                    <thead class="text-white bg-blue-600">
-                        <tr>
-                            <th scope="col" class="px-4 py-3 font-medium">
-                                Booking Id
-                            </th>
-                            <th scope="col" class="px-4 py-3 font-medium">
-                                Name
-                            </th>
-                            <th scope="col" class="px-4 py-3 font-medium">
-                                Address
-                            </th>
-                            <th scope="col" class="px-4 py-3 font-medium">
-                                Date
-                            </th>
-                            <th scope="col" class="px-4 py-3 font-medium">
-                                Hub
-                            </th>
-                            <th scope="col" class="px-4 py-3 font-medium">
-                                Status
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                126802736
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Ratul Ahmed
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Bheramara, Kushtia, Khulna
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Bheramara
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
-                                                alt=""></span>
-                                        Delivered
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                659316598
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Rasel Ahmed
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Sakhipur, Bangladesh
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Sakhipur
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
-                                                alt=""></span>
-                                        Delivered
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                659316598
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Towhozib Ahmed Tomal
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Chhagalnaiya, Bangladesh
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Chhagalnaiya
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-red-border-color dc-red-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/close-square.svg') }}"
-                                                alt=""></span>
-                                        Canceled
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                659316598
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Sojol Ahmed
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Lakshmipur, Bangladesh
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Lakshmipur
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
-                                                alt=""></span>
-                                        Delivered
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                126802736
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Ratul Ahmed
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Bheramara, Kushtia, Khulna
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Bheramara
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-yellow-border-color dc-yellow-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/table-setting.svg') }}"
-                                                alt=""></span>
-                                        On Progress
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                126802736
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Ratul Ahmed
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Bheramara, Kushtia, Khulna
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Bheramara
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
-                                                alt=""></span>
-                                        Delivered
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                659316598
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Rasel Ahmed
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Sakhipur, Bangladesh
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Sakhipur
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
-                                                alt=""></span>
-                                        Delivered
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                659316598
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Towhozib Ahmed Tomal
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Chhagalnaiya, Bangladesh
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Chhagalnaiya
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-red-border-color dc-red-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/close-square.svg') }}"
-                                                alt=""></span>
-                                        Canceled
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                659316598
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Sojol Ahmed
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Lakshmipur, Bangladesh
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Lakshmipur
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-green-border-color dc-green-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/tick-square.svg') }}"
-                                                alt=""></span>
-                                        Delivered
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="bg-white">
-                            <td scope="row" class="p-4 text-gray-600">
-                                126802736
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Ratul Ahmed
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Bheramara, Kushtia, Khulna
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                12-11-2023
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                Bheramara
-                            </td>
-                            <td class="p-4 text-gray-600">
-                                <div class="flex items-center justify-between">
-                                    <div
-                                        class="inline-block p-1 items-center gap-2 border dc-yellow-border-color dc-yellow-color">
-                                        <span class="inline-block"><img
-                                                src="{{ asset('assets/img/Iconly/Light/table-setting.svg') }}"
-                                                alt=""></span>
-                                        On Progress
-                                    </div>
-                                    <div class="flex items-center gap-1">
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                        <span class="block w-1 h-1 rounded-full border-2 border-gray-300"></span>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!--Service Box info-->
+            <div class="flex w-full mt-4 gap-4">
+                <div class="dc-service-box">
+                    <div class="w-1/2">                    
+                        <h2 class="text-gray-400 text-sm pb-2">Courier Service</h2>
+                        <h2 class="text-black text-2xl">$ 1.34 L</h2>
+                        <div class="flex items-center space-x-2 py-2">
+                            <img class="w-5" src="{{ asset('assets/img/Iconly/Light/discovery.svg') }}"/>
+                            <h2 class="text-base"><span class="text-blue-600">+30%</span> Inc</h2>
+                        </div>
+                    </div>
+                    <div class="flex w-1/2 items-center justify-center">                    
+                          <svg viewbox="0 0 35.83098862 35.83098862" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <circle stroke="#efefef" stroke-width="4" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
+                            <circle stroke="#00acc1" stroke-width="4" stroke-dasharray="65,100" stroke-linecap="none" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
+                            <g class="circle-chart__info items-center">
+                                <text class="circle-chart__percent" x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle" font-size="8">65%</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="dc-service-box">
+                    <div class="w-1/2">                    
+                        <h2 class="text-gray-400 text-sm pb-2">Package Service</h2>
+                        <h2 class="text-black text-2xl">$ 0.84 L</h2>
+                        <div class="flex items-center space-x-2 py-2">
+                            <img class="w-5" src="{{ asset('assets/img/Iconly/Light/discovery.svg') }}"/>
+                            <h2 class="text-base"><span class="text-blue-600">+30%</span> Inc</h2>
+                        </div>
+                    </div>
+                    <div class="flex w-1/2 items-center justify-center">                    
+                          <svg viewbox="0 0 35.83098862 35.83098862" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <circle stroke="#efefef" stroke-width="4" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
+                            <circle stroke="#48521f" stroke-width="4" stroke-dasharray="80,100" stroke-linecap="none" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
+                            <g class="circle-chart__info items-center">
+                                <text class="circle-chart__percent" x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle" font-size="8">80%</text>
+                            </g>
+                        </svg>
+                        
+                    </div>
+                </div>
+                <div class="dc-service-box">
+                    <div class="w-1/2">                    
+                        <h2 class="text-gray-400 text-sm pb-2">Quick Service</h2>
+                        <h2 class="text-black text-2xl">$ 1.57 L</h2>
+                        <div class="flex items-center space-x-2 py-2">
+                            <img class="w-5" src="{{ asset('assets/img/Iconly/Light/discovery.svg') }}"/>
+                            <h2 class="text-base"><span class="text-blue-600">+15%</span> Inc</h2>
+                        </div>
+                    </div>
+                    <div class="flex w-1/2 items-center justify-center">                    
+                          <svg viewbox="0 0 35.83098862 35.83098862" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <circle stroke="#efefef" stroke-width="4" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
+                            <circle stroke="#bb4f00" stroke-width="4" stroke-dasharray="90,100" stroke-linecap="none" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
+                            <g class="circle-chart__info items-center">
+                                <text class="circle-chart__percent" x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle" font-size="8">90%</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="dc-service-box">
+                    <div class="w-1/2">                    
+                        <h2 class="text-gray-400 text-sm pb-2">Overall</h2>
+                        <h2 class="text-black text-2xl">$ 2.34 L</h2>
+                        <div class="flex items-center space-x-2 py-2">
+                            <img class="w-5" src="{{ asset('assets/img/Iconly/Light/discovery.svg') }}"/>
+                            <h2 class="text-base"><span class="text-blue-600">+10%</span> Inc</h2>
+                        </div>
+                    </div>
+                    <div class="flex w-1/2 items-center justify-center">                    
+                          <svg viewbox="0 0 35.83098862 35.83098862" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <circle stroke="#efefef" stroke-width="4" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
+                            <circle stroke="#c60b63" stroke-width="4" stroke-dasharray="75,100" stroke-linecap="none" fill="none" cx="17.91549431" cy="17.91549431" r="15.91549431" />
+                            <g class="circle-chart__info items-center">
+                                <text class="circle-chart__percent" x="16.91549431" y="16.5" alignment-baseline="central" text-anchor="middle" font-size="8">75%</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>              
             </div>
-            <!--End Table Content-->
+
+            <!--Servec box info-->
+            
 
             <!--Pagination-->
-            <div class="flex mt-10 items-center justify-between">
-                <p class="min-w-max text-gray-600">
-                    Showing Results 10 of 109
-                </p>
-                <div class="min-w-max flex gap-2 items-center">
-                    <button class="w-8 h-8 rotate-180 bg-white flex items-center justify-center"><img
-                            src="{{ asset('assets/img/Iconly/Light/arrow-right.svg') }}" alt=""></button>
-                    <p
-                        class="w-8 h-8 bg-white border border-gray-100 flex items-center justify-center text-blue-600 text-[10px]">
-                        10</p>
-                    <p class="text-xs text-gray-600">of 128</p>
-                    <button class="w-8 h-8 bg-white flex items-center justify-center"><img
-                            src="{{ asset('assets/img/Iconly/Light/arrow-right.svg') }}" alt=""></button>
-                </div>
-            </div>
+
         </div>
 </x-app-layout>

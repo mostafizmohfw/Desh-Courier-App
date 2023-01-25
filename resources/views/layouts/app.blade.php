@@ -54,7 +54,7 @@
             <div class="flex flex-col h-full justify-between">
                 <div class="pr-4">
                     <div>
-                        <h3 class="font-bold mb-3 text-gray-900">Menu</h3>
+                        <h3 class="font-bold mb-3 text-gray-900 uppercase">Menu</h3>
                         <ul class="ml-2">
                             <li class="mb-3">
                                 <x-responsive-nav-link :href="route('admin.dashboard')" :active="request()->routeIs('admin.dashboard')" class="flex text-gray-300 items-center gap-2">
@@ -88,7 +88,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h3 class="font-bold mb-3 text-gray-900">Organization</h3>
+                        <h3 class="font-bold mb-3 text-gray-900 uppercase">Organization</h3>
                         <ul class="ml-2">
                             <li class="mb-3">
                                 <x-responsive-nav-link :href="route('employee')" :active="request()->routeIs('employee')" class="flex text-gray-300  items-center gap-2">

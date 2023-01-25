@@ -18,6 +18,10 @@
     color: #5a26ff;
 }
 
+
+.bg-primary-color{
+    background-color: #E8E4F9;
+}
 .dc-nav-links a.primary-color{
     color: #5a26ff;
 }
@@ -46,33 +50,43 @@
 .gray-bg{
     background-color:#F7F7F7;
 }
+
 .dashboard-bg{
     background-color:#E5E5E5;
 }
+
 .font-size-22{
     font-size:22px;
 }
+
 .dc-green-border-color{
     border-color:rgba(97, 200, 119, 0.3);
 }
+
 .dc-green-color{
     color:#61C877;
 }
+
 .dc-red-color{
     color:#FF6056;
 }
+
 .dc-red-border-color{
    border-color:rgba(255, 96, 86, 0.3);
 }
+
 .dc-yellow-border-color{
     color:#FFCE93;
 }
+
 .dc-red-color{
    border-color:rgba(255, 206, 147, 0.3);
 }
+
 .h-inherit {
     height: inherit;
 }
+
 .dc-onprocess-border-color{
     border-color:rgb(253 240 223);
 }
@@ -87,6 +101,17 @@
     width: 500px;
 }
 
+.dc-weeky-box{
+    @apply bg-white;
+    height: 320px;
+    width: 620px;
+}
+
+.dc-transation-box{
+    @apply bg-white;
+    height: 450px;
+    width: 620px;
+}
 .dc-profile_image{
     height: 66px;
     width: 66px;
@@ -107,6 +132,29 @@
     font-weight: 500;
     @apply border-b py-2 text-black
 }
+
 .dc-comment-box{
     left: 420px;
+}
+
+.dc-service-box{
+    @apply flex bg-white w-1/4 p-5 min-h-max rounded-md;
+}
+
+
+.circle-chart__info {
+  animation: circle-chart-appear 2s forwards;
+  opacity: 0;
+  transform: translateY(0.3em);
+}
+
+@keyframes circle-chart-fill {
+  to { stroke-dasharray: 5 100; }
+}
+
+@keyframes circle-chart-appear {
+  to {
+    opacity: 1;
+    transform: translateY(90);
+  }
 }

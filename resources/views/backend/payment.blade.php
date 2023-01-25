@@ -96,12 +96,11 @@
                             <span class="h-4 w-1 bg-blue-600"></span>
                         </div>
                     </div>
-
-                    <div class="inline-flex w-1/2 max-h-24 justify-end">
-                        <div class="h-24 w-5 mr-2 bg-gray-300 rounded-tr rounded-tl"></div>
-                        <div class="h-24 w-5 mr-2 bg-gray-300 rounded-tr rounded-tl"></div>
-                        <div class="h-24 w-5 mr-2 bg-blue-600 rounded-tr rounded-tl"></div>
-                        <div class="h-24 w-5 mr-2 bg-gray-300 rounded-tr rounded-tl"></div>
+                    <div class="inline-flex w-1/2 max-h-24 justify-end items-end space-x-3">
+                        <div class="h-24 w-5 bg-gray-300 rounded-tr rounded-tl"></div>
+                        <div class="h-20 w-5 bg-gray-300 rounded-tr rounded-tl"></div>
+                        <div class="h-10 w-5 bg-blue-600 rounded-tr rounded-tl"></div>
+                        <div class="h-16 w-5 bg-gray-300 rounded-tr rounded-tl"></div>
                     </div>
                 </div>
 
@@ -115,11 +114,11 @@
                         </div>
                     </div>
 
-                    <div class="inline-flex w-1/2 max-h-24 justify-end">
-                        <div class="h-24 w-5 mr-2 bg-gray-300 rounded-tr rounded-tl"></div>
-                        <div class="h-24 w-5 mr-2 bg-gray-300 rounded-tr rounded-tl"></div>
-                        <div class="h-24 w-5 mr-2 bg-blue-600 rounded-tr rounded-tl"></div>
-                        <div class="h-24 w-5 mr-2 bg-gray-300 rounded-tr rounded-tl"></div>
+                    <div class="inline-flex w-1/2 max-h-24 justify-end items-end space-x-3">
+                        <div class="h-24 w-5 bg-gray-300 rounded-tr rounded-tl"></div>
+                        <div class="h-12 w-5 bg-gray-300 rounded-tr rounded-tl"></div>
+                        <div class="h-16 w-5 bg-blue-600 rounded-tr rounded-tl"></div>
+                        <div class="h-10 w-5 bg-gray-300 rounded-tr rounded-tl"></div>
                     </div>
                 </div>
             </div>     
